@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <title>Form</title>
+    <link href="registrationform.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+    <h1>Sign Up Now!</h1>
+    </div>
+    <div class="form" >
+        <form name="registration" onSubmit="return validation();">
+                    <label>First Name:</label></br>
+                    <input type="text" placeholder="First Name" name="fname"></input></br>
+                    <label>Last Name:</label></br>
+                    <input type="text" placeholder="Last Names" name="lname"></input></br>
+                    <label>Gender</label></br>
+                    <select name="gname">
+                    <option selected="" value="Default">Select</option>
+                    <option>Male</option>
+                    <OPTION>Female</OPTION></select></br>
+                    <label>Contact Number</label></br>
+                    <input type="text" placeholder="Mobile Number" name="number"></input>
+                    <input type="submit" value="Submit" name="Submit"></input>
+            </form>
+        </form>
+    </div>
+</body>
+</html>
